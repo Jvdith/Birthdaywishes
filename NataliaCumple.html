@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Natalia Feliz Cumpleaños</title>
+  <style>
+    body {
+      background-color: rgb(67, 27, 112);
+      background-image: url('images/marcusmani.gif');
+      background-size: contain;
+      display: flex;
+      flex-direction: column; 
+      justify-content: center; 
+      align-items: center;     
+      height: 100vh;
+      margin: 0;
+    }
+
+    h1, p {
+      text-align: center;
+    }
+
+    
+    .image-container {
+      display: flex;       
+      gap: 30px;          
+    }
+
+    
+    .image-container img {
+      width: 300px;
+      height: auto;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 style="font-size: 80px;">🖤✧･ﾟ: *✧･ﾟ:*‧₊ ᵎᵎ✮･ﾟ.🦎: *✧･ﾟ:*‧₊ ᵎᵎ✧･ﾟ: *✮💜</h1>
+  <h1 style="font-size: 60px; font-family:Indie Flower;">Feliz cumpleaños Natalia >.<</h1>
+  <p  style="font-size: 30px; font-family:Indie Flower;">Nata eres una amiga MARAVILLOSA espero que pases un muy buen cumpleaños te quiero musho </p>
+  <audio id="sonido">
+    <source src="audio/lizard.mp3" type="audio/mpeg">
+    Tu navegador no soporta el audio.
+  </audio>
+   <script>
+    function tocarAudio() {
+      const audio = document.getElementById("sonido");
+      audio.currentTime = 0; 
+      audio.play();
+    }
+  </script>
+
+  
+  <div class="image-container">
+    <img id="img0" src="images/Untitled-1.png" alt="Imagen 0" style="position: absolute; left: 200px;">
+    <img id="img1" src="images/lizard-lizard-lizard-button.gif" alt="Imagen 1" onclick="tocarAudio()">
+    <img id="img2" src="images/E2DD74F8-B4CB-4F3C-AFD8-756BD7F799CF.webp" alt="Imagen 2">
+    <img id="img3" src="images/meowl-heart.gif" alt="Imagen 3">
+  </div>
+
+    <h1 style="font-size: 80px;">💜✧･ﾟ: *✧･ﾟ:*‧₊ ᵎᵎ✮･ﾟ.🦎: *✧･ﾟ:*‧₊ ᵎᵎ✧･ﾟ: *✮🖤</h1>
+
+</body>
+</html>
